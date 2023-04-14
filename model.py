@@ -21,9 +21,9 @@ logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(messa
                     datefmt = '%m/%d/%Y %H:%M:%S',
                     level = logging.ERROR)
 
-lm_path = project_dir/'models'/'language_model'/'finbertTRC2'
-cl_path = project_dir/'models'/'classifier_model'/'finbert-sentiment'
-cl_data_path = project_dir/'data'/'sentiment_data'
+lm_path = project_dir/'finbert'/'models'/'language_model'/'finbertTRC2'
+cl_path = project_dir/'finbert'/'models'/'classifier_model'/'finbert-sentiment'
+cl_data_path = project_dir/'finbert'/'data'/'sentiment_data'
 
 # Clean the cl_path
 try:
